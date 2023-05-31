@@ -4,16 +4,16 @@ from aiohttp import ClientSession
 from uvloop import install
 
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split()
-API_HASH = os.environ.get("API_HASH", "3bb")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "57k")
-BOT_NAME = os.environ.get("BOT_NAME", "Elf_Robot")
-DB_URL = os.environ.get("DATABASE_URL", "mongodb+srv://a?retryWrites=true&w=majority")
-ANILIST_CLIENT = os.environ.get("ANILIST_CLIENT", 161)
-ANILIST_SECRET = os.environ.get("ANILIST_SECRET", "N9Jg")
+API_HASH = os.environ.get("API_HASH", "9ae65901d2eeb5854cc5aa562566d34a")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_NAME = os.environ.get("BOT_NAME", "Komi_RoxBot")
+DB_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sukuna:fazaljuly2@sukuna.vipbn9a.mongodb.net/?retryWrites=true&w=majority")
+ANILIST_CLIENT = os.environ.get("ANILIST_CLIENT", 12926)
+ANILIST_SECRET = os.environ.get("ANILIST_SECRET", "TV5WC7AMW2NF58ongSOK4132Yiox6gonFbyICCAL")
 ANILIST_REDIRECT_URL = os.environ.get("ANILIST_REDIRECT_URL", "https://anilist.co/api/v2/oauth/pin")
-API_ID = 26426819
-LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "-1001993"))
-OWNER = list(filter(lambda x: x, map(int, os.environ.get("OWNER_ID", "5852955057").split())))  ## sudos can be included
+API_ID = 14056295
+LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "-1001646232965"))
+OWNER = list(filter(lambda x: x, map(int, os.environ.get("OWNER_ID", "1805959544").split())))  ## sudos can be included
 
 DOWN_PATH = "anibot/downloads/"
 HELP_DICT = dict()
